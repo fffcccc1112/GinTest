@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  mode: "debug"
+auth:
+  secret: "fc_1234"
+logger:
+  level: "info"
+  filename: "logs/app.log"
+Consul:
+  addr: "127.0.0.1"
+  port: 8500
+Mysql:
+  Addr: "nazirite.cn"
+  Port: 3306
+  UserName: "root"
+  Password: "fc@123456"
+  Name: "second_hand"
+Redis:
+  Addr: "nazirite.cn:6379"
+  Passward: "fc@123456"
+  DB: 1
+  PoolSize: 10
+  #剩下的做超时配置
