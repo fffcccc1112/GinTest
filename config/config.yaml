@@ -10,14 +10,14 @@ Consul:
   addr: "127.0.0.1"
   port: 8500
 Mysql:
-  Addr: "nazirite.cn"
+  Addr: "127.0.0.1"
   Port: 3306
   UserName: "root"
-  Password: "fc@123456"
+  Password: "123456"
   Name: "second_hand"
 Redis:
-  Addr: "nazirite.cn:6379"
-  Passward: "fc@123456"
+  Addr: "127.0.0.1"
+  Passward: "123456"
   DB: 1
   PoolSize: 10
   #剩下的做超时配置
